@@ -1,0 +1,24 @@
+:root{
+    --encabezado:#142986;
+    --enlace:#86141a;
+}
+
+
+#logo{
+    width: 35%;
+}
+
+#menu{
+    background-color:var(--encabezado) !important;
+}
+
+.nav-link{
+    color: var(--enlace);
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: rgb(173, 13, 40);
+}
+

@@ -3,18 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proyecto 2 </title>
+    <title>Proyecto 2 - Tecnologia </title>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css personal -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/562d327e55.js" crossorigin="anonymous"></script>
 </head>
- <!-- css botstrap-->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script></head>
- <!--css personal -->
- <link rel="stylesheet" href="/css/style.css">
- <h1>hola</h1>
-
-
-
+<link rel="shortcut icon" href="img/francia logo.ico" type="image/x-icon">
 <body>
-    
+    <!-- menu y el logo -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+            <!-- logo -->
+          <a class="navbar-brand" href="#"><img src="/img/francia.jpg" alt="" id ="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto  me-2 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <!-- productos -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="libros en frances.Html">Televisores</a></li>
+                  <li><a class="dropdown-item" href="Diccionario en frances.Html">Celulares</a></li>
+                  <li><a class="dropdown-item" href ="juegos de palabras.Html"></a></li>
+                 
+                  <li><a class="dropdown-item" href="libros de planas.Html">Computadores</a></li>
+                  <li><a class="dropdown-item" href="termos de agua.html">Tablets</a></li>
+                </ul>
+              </li>
+
+              <!-- servicios -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#domicilio">Domicilios</a></li>
+                  <li><a class="dropdown-item" href="#pagos">Pagos Online</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="soporte.html">Soporte Técnico</a></li>
+                  <li><a class="dropdown-item" href="asesorias.html">Asesorias</a></li>
+                </ul>
+              </li>
+             <!-- contacto -->
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+
+              <!-- enlaces redes sociales -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #28bd0a;"></i></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.messenger.com/" target="_blank"><i class="fa-brands fa-facebook-messenger" style="color: #1176d4;"></i></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color: #0b7084;"></i></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube" style="color: #ff0f1b;"></i></a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #28bd0a;"></i></i></a>
+              </li>
+
+
+
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+
+            <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">AgendarCita</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--slider de imagenes-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="img/franciaaa.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide. 
+                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
+              </div></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/torre frances.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/francia y.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/arca frances.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/amor frances.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/amor frances.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
