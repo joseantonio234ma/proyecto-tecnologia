@@ -5,7 +5,7 @@
 
 
 #logo{
-    width: 35%;
+    width: 25%;
 }
 
 #menu{
@@ -19,6 +19,21 @@
 }
 
 .nav-link:hover{
-    color: rgb(173, 13, 40);
+    color: rgb(11, 94, 172);
 }
 
+
+.alto-img{
+    height: 610px !important;
+    padding-top: 75px !important;
+}
+
+.nav-link.active{
+    color: #d8e51b !important;
+    font-weight: bold !important;
+   
+}
+
+.nav-link.active:hover{
+    color: #53adee !important;
+}
