@@ -51,3 +51,13 @@
 }
 
 
+/* sección videos */
+
+#videos{
+    background-color: #fff;
+}
+
+#videos .titulo{
+    width: 100%;
+    text-align: center;
+}
