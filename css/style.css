@@ -8,7 +8,7 @@ body{
 }
 
 #logo{
-    width: 75%;
+    width: 15%;
 }
 
 #menu{
@@ -109,7 +109,7 @@ body{
 
 .ft-social{
     color: #fff;
-    border-radius: 100%;
+    border-radius: 10%;
     height: auto;
     width: 50px;
     display: inline-block;
