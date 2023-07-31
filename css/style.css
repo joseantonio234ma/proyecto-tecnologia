@@ -108,14 +108,13 @@ body{
 }
 
 
-#page-footer .ftcontainer{
-    max-width: 120px;
+#page-footer .ftcontainer {
+    max-width: 1200px;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 70px 0;
+    padding: 70px 0; 
 }
-
 
 .ft-social{
     color: aqua;
