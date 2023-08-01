@@ -129,3 +129,9 @@ body{
     margin-bottom:30px;
     font-size:1.2rem;
 }
+
+.footer__info{
+    color: #fff;
+    line-height: 30px;
+    font-size: 1.0rem;
+}
