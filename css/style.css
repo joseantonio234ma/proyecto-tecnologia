@@ -147,3 +147,10 @@ body{
 .footer__link:nth-child(3){
     border-left: 2px solid #e3e1ec;
 }
+
+.footer-credits{
+    width: 100%;
+    color: #e3e1ec;
+    text-align: center;
+    background-color: #cf1212;
+}
