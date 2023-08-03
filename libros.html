@@ -3,28 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 2 - Tecnologia </title>
+    <title>Digital Tecnology - Televisor  </title>
     <!-- css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- css personal -->
     <link rel="stylesheet" href="css/style.css">
     <!-- iconos de fontawesome -->
     <script src="https://kit.fontawesome.com/562d327e55.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/logo.ico" type="image/x-icon">
 </head>
-<link rel="shortcut icon" href="img/francia logo.ico" type="image/x-icon">
 <body>
     <!-- menu y el logo -->
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
         <div class="container-fluid">
             <!-- logo -->
-        </a> class="navbar-brand" href="#"><img src="/img/francia.jpg" alt="" id ="logo"></a>
+        </a class="navbar-brand" href="#">
+            <img src="/img/logo.png" alt="" id="logo">
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav mx-auto  my-0  my-lg-0 ">
+            <!-- para alinear el menu de enlaces a la derecha
+             <ul class="navbar-nav mx-auto me-2 navbar-nav-scroll">-->
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -35,12 +40,11 @@
                   Productos
                 </a>
                 <ul class="dropdown-menu">
-                  <li></a> class="dropdown-item" href="libros en frances.Html">Televisores</a></li>
-                  <li></a> class="dropdown-item" href="Diccionario en frances.Html">Celulares</a></li>
-                  <li></a> class="dropdown-item" href ="juegos de palabras.Html"></a></li>
+                  <li><a class="dropdown-item" href="televisor.html">Televisores</a></li>
+                  <li><a class="dropdown-item" href="celular.html">Celulares</a></li>
                  
-                  <li><a class="dropdown-item" href="libros de planas.Html">Computadores</a></li>
-                  <li><a class="dropdown-item" href="termos de agua.html">Tablets</a></li>
+                  <li><a class="dropdown-item" href="computador.html">Computadores</a></li>
+                  <li><a class="dropdown-item" href="table.html">Tablets</a></li>
                 </ul>
               </li>
 
@@ -50,8 +54,8 @@
                   Servicios
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#domicilio">Domicilios</a></li>
-                  <li><a class="dropdown-item" href="#pagos">Pagos Online</a></li>
+                  <li><a class="dropdown-item" href="index.html#domicilio">Domicilios</a></li>
+                  <li><a class="dropdown-item" href="index.html#pagos">Pagos Online</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="soporte.html">Soporte Técnico</a></li>
                   <li><a class="dropdown-item" href="asesorias.html">Asesorias</a></li>
@@ -63,340 +67,178 @@
               </li>
 
               <!-- enlaces redes sociales -->
-              
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+              </a class="nav-link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
               </li>
-
+              <li class="nav-item">
+              </a class="nav-link" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li class="nav-item">
+              </a class="nav-link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+              </a class="nav-link" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              </li>
             </ul>
+
+          </a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Agendar Cita</a>
             <!-- <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
-
-
-            <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">AgendarCita</a>
           </div>
         </div>
-      </nav>
-
-
-      <!--slider de imagenes-->
-      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1000">
-            <img src="img/franciaaa.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide. 
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </div></p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="img/torre frances.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-               <div class="boton-comprar">
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-               </div>
-            </div>
-          </div>       
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="img/francia y.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-              <div class="boton-comprar">
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="img/arca frances.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-              <div class="boton-comprar">
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="img/amor frances.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-              <div class="boton-comprar">
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="1000">
-            <img src="img/amor frances.jpg" class="d-block w-100 alto-img" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-              <div class="boton-comprar">
-                <a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </div>
-            </div>
-          </div>
-
+      </nav>   
        
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!--fin slider-->
 
-      <!-- novedades - card grupos -->
-      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="novedades">
-        <H2 class="titulo">novedades</H2>
+      <main>        
+
+         <!-- novedades - card groups -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="libros">
+        <h2 class="titulo">libros</h2>
         <div class="col">
-          <div class="card h-100">
-            <img src="/img/arca frances.jpg" class="card-img-top" alt="...">
+          <div class="card h-50">
+            <img src="https://s3.abcstatics.com/media/cultura/2018/05/21/cartuja-parma-kDE-U30804871368qRE-190x280@abc.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-             </div>
-
+              
+            </div>
             <div class="card-footer">
-              <small class="text-muted"><a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a></small>
+              <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
-            <img src="/img/franciaaa.jpg" class="card-img-top" alt="...">
+          <div class="card h-50">
+            <img src="https://pics.filmaffinity.com/Las_amistades_peligrosas-277140653-large.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              
             </div>
-
-
             <div class="card-footer">
-              <small class="text-muted"><a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </small>
+              <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <img src="https://image.cdn0.buscalibre.com/5b56c4d2f4df73d17c8b4568.__RS360x360__.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-40">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-50">
+            <img src="https://i0.wp.com/cangrejoeditores.com//wp-content/uploads/2014/10/jl_vuelta_mundo-e1413600553520.jpg?fit=500%2C700&ssl=1" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="img/francia.jpg" class="card-img-top" alt="...">
+            <img src="https://imagessl7.casadellibro.com/a/l/t5/77/9788491816577.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              
             </div>
-
-
             <div class="card-footer">
-              <small class="text-muted"><a href="http://wa.me/3122487557?text=hola%20muy%20buenas%20espero%20que%20te%20encuentres%20bien%20dejame%20tu%20mensaje%20y%20cuando%20me%20desocupe%20te%20respondo text=AgendarCita" target="_blank" rel="noopener noreferrer" class="btn btn-danger">Comprar</a>
-              </small>
+            </small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
             </div>
           </div>
         </div>
       </div>
+
         
+      </main>
 
-     <!--call action - promocion-->
-
-     <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="jumbotron">
-      <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold" id = "pagos">Promoción y pagos</h1>
-        <p class="col-md-8 fs-4">
-          pagos onnline.
-        </p>
-
-
-
-        <h1 class="display-5 fw-bold" id = "domicilio">domicilio</h1>
-        <p class="col-md-8 fs-4">
-        Domicilio solamente en area mentropolitana.
-        </p>
-        <button class="btn btn-primary btn-lg notica">Solicitar información</button>
-      </div>
-    </div>
-
-  <main>
-      <div class="container py-4">
-        <header class="pb-3 mb-4 border-bottom">
-          <span class="fs-4">Asesorias</span>
-        </header>
-      </div>
-
-
-      <div class="container-fluid py-5">
-        <div class="accordion container-fluid" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-               Hosting y dominio
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>¿Qué un hosting en Internet?</strong> 
-                Un hosting web te proporciona espacio en un servidor en el que compartes recursos con más usuarios. Dependiendo del plan que selecciones, puedes tener varias páginas web alojadas en un mismo hosting. Muchos proveedores, ofrecen servicios de alojamiento de tráfico ilimitado. <b>oct 2022 </b> 
-              </div>
-            </div>
+      <!-- footer - BEM en html y css -->
+      <footer id="page-footer">
+        <div class="ftcontainer">
+          <div class="footer__menu">
+            <figure>
+              <img src="/img/logo.png" alt="" class="footer__logo">
+            </figure>
+            <p class="ft-social-row">
+            </a class="ft-social" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </a class="ft-social" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </a class="ft-social" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </a class="ft-social" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </p>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Accordion Item #2
-              </button>
-
-
-            </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
+          <!-- horarios -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Horarios</h4>
+            <span class="footer__info">
+              Lunes a Viernes: 8:00 am a 7:00 pm | Sábados: 9:00 am a 7:00 pm
+            </span>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Accordion Item #3
-              </button>
-            </h2>
-            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
+          <!-- Enlaces -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Enlaces</h4>
+            <ul class="ft-link">
+              <li class="footer__link">
+                <a href="#" target="_blank"  class="ft-social">Inicio</a>
+              </li>
+              <li class="footer__link">
+                <a href="nosotros.html" target="_blank"  class="ft-social">Nosotros</a>
+              </li>
+              <li class="footer__link">
+                <a href="condiciones.html" target="_blank"  class="ft-social">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+          <!-- contactos -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Contactos</h4>
+            <p class="footer__info">
+              <i class="fa-solid fa-envelope"></i>
+              Email: info@digital.com
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-mobile"></i>
+              Celular: 3105188168
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-location-dot"></i>
+              Dirección: Calle 96 # 74-20
+            </p>
           </div>
         </div>
-      </div>
-    
-      <!-- videos -->
-
-      <!-- novedades - card groups -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="videos">
-      <h2 class="titulo">Videos</h2>
-      <div class="col">
-        <div class="card h-50">
-        </iframe width="853" height="480" src="https://www.youtube.com/embed/PiSfroMnqWA" title="VIDEOCLUB - Amour Plastique [Español/Letra]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
-          </div>
+        <div class="footer-credits">
+          &copy; 2023. Digital Tecnology - All rights reserved - Desing: <a href="#" target="_blank">Jorge Grajales</a>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-50">
-        </iframe width="853" height="480" src="https://www.youtube.com/embed/BHzHxCG5w28" title="50 frases (muy) importantes en francés para principiantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            
-          </div>
-          <div class="card-footer">
-          </small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-50">
-        </iframe width="853" height="480" src="https://www.youtube.com/embed/40hWCSqjUw4" title="100 Palabras en Francés (muy útiles) para principiantes y con la Traducción en Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-           
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary"></a href="https://wa.me/3105188168?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
-          </div>
-        </div>
-      </div>
-    
-     </div>
-  </main>
 
-    <!-- footer - BEM en html y css -->
-    <footer id="page-footer">
-      <div class="ftcontainer">
-        <div class="footer__menu">
-          <figure>
-            <img src="/img/logo.png" alt="" class="footer__logo">
-          </figure>
-          <p class="ft-social-row">
-          </a class="ft-social" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        </a class="ft-social" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-      </a class="ft-social" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    </a class="ft-social" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-          </p>
-        </div>
-        <!--horarios-->
-         <div class="footer__menu">
-         <h4 class="footer__title">Horarios</h4>
-         <span class="footer_info">
-          lunes a viernes : 8:00 am a 7 pm | sabados : 9:00 am  a 7:00 pm 
-         </span>
-         </div>
-
-         <!--Enlaces-->
-         <div class="footer__menu">
-          <h4 class="footer__title">Enlaces</h4>
-       
-         <ul class="ft-link">
-          <li class="footer__link">
-          </a href="http://" target="_blank"  class="ft-social">Inicio</a>
-          </li>
-          <li class="footer__link">
-          </a href="nosotro.html" target="_blank"  class="ft-social">Nosotros</a>
-          </li>
-          <li class="footer__link">
-          </a href="condiciones.html" target="_blank"  class="ft-social">Terminos y Condiciones</a>
-          </li>
-         </ul>
-
-         </div>
-         <!--contacto-->
-        <div class="footer__menu">
-          <h4 class="footer__title">Contacto</h4>
-         <p class="footer__info">
-          <i class="fa-solid fa-envelope"></i>
-          Email:info@francia.com
-         </p>
-         <p class="footer__info">
-          <i class="fa-solid fa-mobile"></i>
-           Celular:3125678989
-         </p>
-         <p class="footer__info">
-          <i class="fa-solid fa-location-dot"></i>
-           Direccion: carrera 46 N78-172
-         </p>
-        </div>
-      </div>
-
-     <div class="footer-credits">
-      &copy; 2023 Aprendes frances - all ringths reserved -  desgin: </a href="#"  target="_blank">Jose Antonio</a>
-     </div>
+      </footer>
 
 
-    </footer>
 
 
 
