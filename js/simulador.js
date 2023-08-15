@@ -26,7 +26,32 @@ function calcular() {
         alert("Digitar el precio y la cantidad");
 
     }else{
-        
+        // definir unas variables para realizar operaciones
+           // valor total = cantidad * precio 
+           let vt = cantidad * precio;
+           //determinar el porcentaje del iva de acuerdo al producto  y valor total vi = vt * iva;
+           let vi = vt * iva;
+           // determinar el valor total aparg con el iva 
+           let tp = vi + vt;
+
+
+
+           //mostrar lo datos qde las operaciones
+           /* 
+           Tener presento como estan definida las clases e indentificadores en los elementos HTML
+           */
+
+        // mostrar el producto seleccionado 
+           document.getElementById("valorProducto").innerHTML=producto;
+        //mostrar el precio simulado por el usuario 
+        document.getElementById("valorPrecio").innerHTML=precio;
+        // mostrar el valor total del producto
+        document.getElementById("valorTotal").innerHTML=vt;
+        // mostrar el valor total del iva 
+        document.getElementById("valorIva").innerHTML=vi;
+        //mostrar el valor total de total de pagar
+        document.getElementById("totalPagar").innerHTML=tp;
+
     }
 
 }
